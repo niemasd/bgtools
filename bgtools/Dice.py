@@ -66,7 +66,7 @@ if __name__ == "__main__":
     HEADER_TEXT = "Dice"
     BG_COLOR = "#002b36"
     BOX_COLOR = "#073642"
-    TEXT_BODY_COLOR = "#657b83"
+    TEXT_BODY_COLOR = "#93a1a1"
     TEXT_HIGHLIGHT_COLOR = "#2aa198"
     TEXT_BAD_COLOR = "#dc322f"
     TEXT_GOOD_COLOR = "#859900"
