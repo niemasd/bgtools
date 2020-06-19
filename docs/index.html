@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>bgtools package &#8212; bgtools  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">bgtools  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="bgtools-package">
+<h1>bgtools package<a class="headerlink" href="#bgtools-package" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://github.com/niemasd/bgtools">bgtools</a> is a Python package for managing playing board games</p>
+<div class="section" id="module-bgtools">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-bgtools" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="bgtools.Die">
+<em class="property">class </em><code class="sig-prename descclassname">bgtools.</code><code class="sig-name descname">Die</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sides</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/bgtools/Dice.html#Die"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bgtools.Die" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class to represent a single die</p>
+<dl class="py method">
+<dt id="bgtools.Die.roll">
+<code class="sig-name descname">roll</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/bgtools/Dice.html#Die.roll"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bgtools.Die.roll" title="Permalink to this definition">¶</a></dt>
+<dd><p>Roll this <code class="docutils literal notranslate"><span class="pre">Die</span></code></p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">int</span></code>: The value of one of the sides of this <code class="docutils literal notranslate"><span class="pre">Die</span></code> with uniform probability</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="bgtools.Table">
+<em class="property">class </em><code class="sig-prename descclassname">bgtools.</code><code class="sig-name descname">Table</code><a class="reference internal" href="_modules/bgtools/Table.html#Table"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bgtools.Table" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class to represent a game table (e.g. dice, players, etc.)</p>
+<dl class="py method">
+<dt id="bgtools.Table.add_die">
+<code class="sig-name descname">add_die</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sides</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/bgtools/Table.html#Table.add_die"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bgtools.Table.add_die" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a new <code class="docutils literal notranslate"><span class="pre">Die</span></code> to this <code class="docutils literal notranslate"><span class="pre">Table</span></code></p>
+<dl class="simple">
+<dt>Args:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">sides</span></code>: See the <code class="docutils literal notranslate"><span class="pre">sides</span></code> parameter of the <code class="docutils literal notranslate"><span class="pre">Die</span></code> constructor</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">bgtools package</a><ul>
+<li><a class="reference internal" href="#module-bgtools">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">bgtools  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, Niema Moshiri.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.3.
+    </div>
+  </body>
+</html>
