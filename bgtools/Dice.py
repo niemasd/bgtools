@@ -10,6 +10,7 @@ from random import choice
 NAMED = {
     'D4':       tuple(range(1,5)),     # 1-4
     'D6':       tuple(range(1,7)),     # 1-6
+    'D8':       tuple(range(1,9)),     # 1-8
     'D10_ONES': tuple(range(10)),      # 0-9
     'D10_TENS': tuple(range(0,91,10)), # 0, 10, 20, ..., 90
     'D10_SUM':  tuple(range(100)),     # 0-99
@@ -18,7 +19,7 @@ NAMED = {
 }
 
 # the dice in Dungeons & Dragons
-DND = ['D4', 'D6', 'D10_ONES', 'D10_TENS', 'D10_SUM', 'D12', 'D20']
+DND = ['D4', 'D6', 'D8', 'D10_ONES', 'D10_TENS', 'D10_SUM', 'D12', 'D20']
 
 class Die:
     '''Class to represent a single die'''
